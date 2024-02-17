@@ -35,7 +35,7 @@
             // UxBelleAireDecriptionLabel
             // 
             UxBelleAireDecriptionLabel.AutoSize = true;
-            UxBelleAireDecriptionLabel.Location = new Point(129, 62);
+            UxBelleAireDecriptionLabel.Location = new Point(133, 60);
             UxBelleAireDecriptionLabel.Name = "UxBelleAireDecriptionLabel";
             UxBelleAireDecriptionLabel.Size = new Size(256, 40);
             UxBelleAireDecriptionLabel.TabIndex = 0;
@@ -54,8 +54,8 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Yellow;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Lime;
+            ClientSize = new Size(515, 230);
             Controls.Add(UxBelleAirePriceLabel);
             Controls.Add(UxBelleAireDecriptionLabel);
             Name = "BelleAireForm";
