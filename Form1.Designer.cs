@@ -38,30 +38,30 @@
             // UxWelcomeLabel
             // 
             UxWelcomeLabel.AutoSize = true;
-            UxWelcomeLabel.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            UxWelcomeLabel.Font = new Font("MingLiU_HKSCS-ExtB", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             UxWelcomeLabel.Location = new Point(227, 93);
             UxWelcomeLabel.Name = "UxWelcomeLabel";
-            UxWelcomeLabel.Size = new Size(300, 36);
+            UxWelcomeLabel.Size = new Size(317, 30);
             UxWelcomeLabel.TabIndex = 0;
             UxWelcomeLabel.Text = "Welcome to Bailey's";
             // 
             // UxRateLabel
             // 
             UxRateLabel.AutoSize = true;
-            UxRateLabel.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            UxRateLabel.Font = new Font("Modern No. 20", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             UxRateLabel.Location = new Point(249, 168);
             UxRateLabel.Name = "UxRateLabel";
-            UxRateLabel.Size = new Size(212, 32);
+            UxRateLabel.Size = new Size(203, 30);
             UxRateLabel.TabIndex = 1;
             UxRateLabel.Text = "Check our rates";
             // 
             // UxBelleAireCheckBox
             // 
             UxBelleAireCheckBox.AutoSize = true;
-            UxBelleAireCheckBox.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            UxBelleAireCheckBox.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UxBelleAireCheckBox.Location = new Point(244, 234);
             UxBelleAireCheckBox.Name = "UxBelleAireCheckBox";
-            UxBelleAireCheckBox.Size = new Size(217, 33);
+            UxBelleAireCheckBox.Size = new Size(201, 33);
             UxBelleAireCheckBox.TabIndex = 2;
             UxBelleAireCheckBox.Text = "Belle Aire Suite";
             UxBelleAireCheckBox.UseVisualStyleBackColor = true;
@@ -70,10 +70,10 @@
             // UxLincolnCcheckBox
             // 
             UxLincolnCcheckBox.AutoSize = true;
-            UxLincolnCcheckBox.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            UxLincolnCcheckBox.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
             UxLincolnCcheckBox.Location = new Point(249, 289);
             UxLincolnCcheckBox.Name = "UxLincolnCcheckBox";
-            UxLincolnCcheckBox.Size = new Size(195, 33);
+            UxLincolnCcheckBox.Size = new Size(183, 33);
             UxLincolnCcheckBox.TabIndex = 3;
             UxLincolnCcheckBox.Text = "Lincoln Room";
             UxLincolnCcheckBox.UseVisualStyleBackColor = true;
@@ -81,20 +81,22 @@
             // 
             // UxMealButton
             // 
+            UxMealButton.BackColor = Color.FromArgb(192, 192, 0);
             UxMealButton.Location = new Point(244, 348);
             UxMealButton.Name = "UxMealButton";
             UxMealButton.Size = new Size(193, 29);
             UxMealButton.TabIndex = 4;
             UxMealButton.Text = "Check for meal options";
-            UxMealButton.UseVisualStyleBackColor = true;
+            UxMealButton.TextAlign = ContentAlignment.BottomCenter;
+            UxMealButton.UseVisualStyleBackColor = false;
             UxMealButton.Click += UxMealButton_Click;
             // 
             // UxBaileysForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Yellow;
-            ClientSize = new Size(800, 450);
+            BackColor = Color.Lime;
+            ClientSize = new Size(764, 434);
             Controls.Add(UxMealButton);
             Controls.Add(UxLincolnCcheckBox);
             Controls.Add(UxBelleAireCheckBox);

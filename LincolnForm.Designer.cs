@@ -67,6 +67,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(192, 192, 255);
             ClientSize = new Size(336, 247);
             Controls.Add(UxLincolnPictureBox);
             Controls.Add(UxLincolnPriceLabel);
