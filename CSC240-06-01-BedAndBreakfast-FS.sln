@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSC240-06-01-BedAndBreakfast-FS", "CSC240-06-01-BedAndBreakfast-FS.csproj", "{CF7253D8-243C-4633-B91F-1636903350FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF7253D8-243C-4633-B91F-1636903350FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7253D8-243C-4633-B91F-1636903350FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7253D8-243C-4633-B91F-1636903350FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7253D8-243C-4633-B91F-1636903350FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FFA8512-CDB2-4008-8A41-9762E469B67F}
+	EndGlobalSection
+EndGlobal
